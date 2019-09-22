@@ -1,6 +1,8 @@
 function run() {
-    const value = parseFloat(document.querySelector("#value").value)
-    const taxpercentage = parseFloat(document.querySelector("#tax-percentage").value)
+    const value1=document.querySelector("#value").value
+    const value = parseFloat(value1)
+    const tax1=document.querySelector("#tax-percentage").value;
+    const taxpercentage = parseFloat(tax1)
 
     const tip = value * (taxpercentage / 100)
     const tax = value * (0.055) // 0.055 = tax rate / 100
